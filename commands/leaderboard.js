@@ -26,7 +26,7 @@ export default {
   data: new SlashCommandBuilder()
     .setName("leaderboard")
     .setDescription("View the chat XP leaderboard"),
-
+  permissionLevel: "Everyone",
   async execute(interaction) {
     await interaction.deferReply();
 

@@ -26,7 +26,7 @@ export default {
         .setRequired(true)
     )
     .setDefaultMemberPermissions(PermissionFlagsBits.ManageRoles),
-
+  permissionLevel: "Moderator",
   async execute(interaction) {
     // IMPORTANT: acknowledge immediately
     await interaction.deferReply({ flags: 64 });

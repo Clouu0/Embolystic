@@ -23,7 +23,7 @@ export default {
     .setDefaultMemberPermissions(
       PermissionFlagsBits.KickMembers | PermissionFlagsBits.Administrator
     ),
-
+  permissionLevel: "Moderator",
   async execute(interaction) {
     await interaction.deferReply();
 

@@ -16,7 +16,7 @@ export default {
         .setDescription("Check another user's level")
         .setRequired(false)
     ),
-
+  permissionLevel: "Everyone",
   async execute(interaction) {
     const target = interaction.options.getUser("user") || interaction.user;
     const userId = target.id;
