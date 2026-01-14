@@ -12,7 +12,7 @@ export default {
       option.setName('reason')
         .setDescription('Reason for ban'))
     .setDefaultMemberPermissions(PermissionFlagsBits.Administrator),
-
+  permissionLevel: 'Administrator',
   async execute(interaction) {
     const user = interaction.options.getUser('user');
     const reason = interaction.options.getString('reason') || 'No reason provided';

@@ -42,7 +42,7 @@ export default {
     .setDefaultMemberPermissions(
       PermissionFlagsBits.ManageGuild | PermissionFlagsBits.Administrator
     ),
-
+  permissionLevel: "Moderator",
   async execute(interaction) {
     await interaction.deferReply();
 
@@ -64,7 +64,7 @@ export default {
     await updateLevelRoles(member, level, levelRoles);
 
     await interaction.editReply(
-      `✅ ${user} is now level **${level}**`
+      `${user} is now level **${level}**`
     );
   }
 };

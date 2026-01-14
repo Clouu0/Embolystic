@@ -41,7 +41,7 @@ export default {
         .setDescription('Your question')
         .setRequired(true)
     ),
-
+    permissionLevel: 'Everyone',
   async execute(interaction) {
     const question = interaction.options.getString('question');
     const answer = responses[Math.floor(Math.random() * responses.length)];

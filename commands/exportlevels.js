@@ -10,7 +10,7 @@ export default {
     .setName('exportlevels')
     .setDescription('Export the levels database and upload it to the designated channel')
     .setDefaultMemberPermissions(PermissionFlagsBits.Administrator), // optional
-
+  permissionLevel: 'Administrator',
   async execute(interaction) {
     try {
       // Check file exists

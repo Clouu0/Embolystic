@@ -11,7 +11,7 @@ export default {
     )
     // Optional: restrict who can use it
     .setDefaultMemberPermissions(PermissionFlagsBits.Administrator),
-
+  permissionLevel: 'Administrator',
   async execute(interaction) {
     const message = interaction.options.getString('message');
 

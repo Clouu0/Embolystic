@@ -8,7 +8,7 @@ export default {
   data: new SlashCommandBuilder()
     .setName('terminate')
     .setDescription('Stops the PM2 process'),
-
+  permissionLevel: 'Dev',
   async execute(interaction) {
     if (interaction.user.id !== OWNER_ID) {
       return interaction.reply({ content: 'Unauthorized'});
