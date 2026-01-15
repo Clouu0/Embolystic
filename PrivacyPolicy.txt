@@ -1,0 +1,15 @@
+Data collected. User ID, Message content. Any "user" data that is logged is publicly accessable to all users on Discord. ex: user ID.
+
+This data is used to store users exp, level, and specfically only the TIME of the last message sent, the CONTENT of any messages is not stored in any form.
+This data is NOT shared in any form.
+
+Easiest form of contact, Discord anubii8870
+
+Do not spam commands
+Do not abuse commands
+Do not abuse vulnerabilities in code
+Access to this bot can and will be terminated if these very simple rules are broken. 
+
+Id kindly like to request this code isnt copied without notifying me, Its not hard and I am 99% sure ill say yes anyways.
+Also because I will help you set the bot up if requested and help with any troubles.
+Im not code jesus so things may break.
